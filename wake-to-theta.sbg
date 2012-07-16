@@ -1,0 +1,19 @@
+#
+# Wake to Theta - v 1.0
+# Samuel Gordalina, 2012
+#
+# 4min 8hz, 10min slide to 4hz, 1h at 4hz
+#
+# 2012-07-15
+#   The passage was smooth and timing was perfect.
+#   There were some moments where consciousness drifted away
+#   Maybe a lower frequency will make things more interesting
+#
+
+theta8: pink/1 100+8/30 300+8/10 600+8/5
+theta4: pink/1 100+4/30 300+4/10
+
+NOW theta8
++00:04 theta8 ->
++00:10 theta4
++01:00 theta4

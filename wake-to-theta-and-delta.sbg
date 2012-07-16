@@ -1,0 +1,23 @@
+#
+# Wake to Theta and Delta
+# Samuel Gordalina, 2012
+#
+# 1. 4min 8hz
+# 2. 6min slide to 4hz
+# 3. 10min 4 hz
+# 4. 6min slide to 3hz
+# 4. 15min 3hz
+# 6. 1min slide to 8hz
+#
+
+theta8: pink/1 100+8/30 300+8/10 600+8/5
+theta4: pink/1 100+4/30 300+4/10
+delta3: pink/1 50+3/30 150+3/10
+
+NOW theta8
++00:04 theta8 ->
++00:06 theta4
++00:10 theta4
++00:06 theta4 ->
++00:15 delta3
++00:01 theta8 ->
